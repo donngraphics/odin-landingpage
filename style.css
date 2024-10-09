@@ -1,0 +1,195 @@
+ * {
+     /* border: 1px solid black; */
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     font-family: roboto;
+
+ }
+
+ #gold {
+     color: gold;
+ }
+
+ .nav div {
+     display: inline;
+ }
+
+ img {
+     width: 25%;
+     height: auto;
+ }
+
+ .card img {
+     width: 100%;
+     height: auto;
+     border-radius: 20px;
+ }
+
+ body {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .header {
+
+     /* background-color: #1f2937; */
+     background-color: rgb(112, 0, 0);
+     color: #fff;
+ }
+
+ .header h2 {
+     padding-left: 13rem;
+
+ }
+
+ .intro {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+ }
+
+ .introText {
+     max-width: 30rem;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 13px;
+ }
+
+ ul {
+     list-style-type: none;
+     display: flex;
+     gap: 2rem;
+     padding-right: 13rem;
+ }
+
+ a {
+
+     text-decoration: none;
+     color: #fff;
+
+ }
+
+ .nav {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+ }
+
+ .card {
+
+     padding: 16px;
+     width: 300px;
+     text-align: center;
+
+ }
+
+ h2.h2 {
+     text-align: center;
+     margin: 2rem 0;
+ }
+
+ .cardSect {
+     display: flex;
+     justify-content: center;
+     height: 45vh;
+
+ }
+
+ .introText button {
+     background-color: gold;
+     color: black;
+ }
+
+ button {
+     background-color: #3882f6;
+     border-radius: 7px;
+     color: #fff;
+     padding: 8px 25px;
+     font-weight: bold;
+
+
+ }
+
+
+ .signUpSect {
+
+     padding-top: 30px;
+
+     height: 10rem;
+
+
+ }
+
+ .signUp {
+
+     background-color: rgba(112, 0, 0, 0.79);
+
+     /* background-color: #3882f6; */
+     margin-left: auto;
+     margin-right: auto;
+     width: 52%;
+     border-radius: 7px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80%;
+     color: #fff;
+     padding: 0px 25px;
+
+ }
+
+ .signUp button {
+     background-color: gold;
+     color: black;
+     border: 2px solid black;
+
+     /* border: 2px solid white; */
+     height: 2rem;
+ }
+
+
+
+
+ .quoteSect {
+     background-color: rgba(200, 153, 0, 0.52);
+
+     /* background-color: #E5e7eb; */
+     height: 15rem;
+     padding-top: 3rem;
+ }
+
+ .quoteBlock {
+
+     width: 50%;
+     text-align: left;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ .quoteBlock p {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-style: italic;
+ }
+
+ .quoteBlock p:nth-child(2) {
+     font-family: "Roboto", serif;
+     font-weight: 900;
+     font-style: normal;
+     text-align: right;
+ }
+
+ .footer p {
+     text-align: center;
+     color: #fff;
+     padding: 20px 0;
+     background-color: rgb(112, 0, 0);
+     /* background-color: #1f2937; */
+
+
+ }
